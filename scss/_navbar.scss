@@ -234,13 +234,11 @@
 
   .navbar-text {
     color: $navbar-light-color;
-    a {
-      color: $navbar-light-active-color;
 
-      &:hover,
-      &:focus {
-        color: $navbar-light-active-color;
-      }
+    a,
+    a:hover,
+    a:focus  {
+      color: $navbar-light-active-color;
     }
   }
 }
@@ -289,13 +287,10 @@
 
   .navbar-text {
     color: $navbar-dark-color;
-    a {
+    a,
+    a:hover,
+    a:focus {
       color: $navbar-dark-active-color;
-
-      &:hover,
-      &:focus {
-        color: $navbar-dark-active-color;
-      }
     }
   }
 }
